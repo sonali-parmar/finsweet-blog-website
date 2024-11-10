@@ -1,0 +1,71 @@
+.content{
+width:70%;
+margin: 80px auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.content h1,.content h4{
+    margin: 0px 0px 15px 0px;
+}
+.content p{
+    text-align: center;
+    margin: 15px 0px 40px 0px;
+}
+.content .info-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items:center;
+    background-color: #592EA9  ;
+    margin-bottom: 14px;
+}
+.info-box .p1 {
+    margin: 0px 0px 15px 0px;
+}
+.info-box .working-hour h2{
+    margin: 12px 0px 3px 0px;
+}
+.info-box .contact-us h3{
+    padding-bottom:26px;
+    margin: 12px 0px 2px 0px ;
+}
+hr{
+    border: 1px solid #6d6e76;;
+}
+.content .form-box
+{
+    width: 100%;
+}
+.content .form-box form{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.content .form-box form input{
+    margin: 8px 0px;
+    padding:13px 5px;
+    border:1px solid var(--ffcolor);
+}
+input::placeholder
+{
+    color: black;
+    font-family: var(--font2);
+}
+.content .form-box form textarea{
+    padding: 10px;
+    font-family: var(--font2);
+    border:1px solid var(--ffcolor);
+}
+.content .form-box form button{
+    background-color: var(--bColor);
+    padding: 10px 0px;
+    font-family:var(--font1);
+    font-weight:bolder;
+    border:none;
+    margin-top: 14px;
+}

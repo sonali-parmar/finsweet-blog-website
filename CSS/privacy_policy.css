@@ -1,0 +1,23 @@
+.p-p-content .head{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p-p-content .head p{
+    font-size: 13px;
+}
+.p-p-content .head h1{
+    font-size: 36px;
+}
+.p-p-content .content{
+margin-top: 70px;
+margin-bottom: 70px;
+width: 70%;
+}
+.p-p-content .content  div p{
+    margin: 18px 0px ;
+    color:#4c4c4c;
+}

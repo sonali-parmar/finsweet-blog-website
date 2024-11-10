@@ -1,0 +1,75 @@
+.head{
+    display: flex;
+    width:100%;
+    min-height:380px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.head .image{
+    min-width: 15%;
+    height: 240px;
+    display: flex;
+}
+.head .image img{
+    width:100%;
+    height: 100%;
+}
+.head .content{
+width:50%;
+height: 300px;
+margin-left: 12px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.head .content p{
+    margin:12px 0px;
+}
+.design{
+    position: absolute;
+    width:100%;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:400px;
+    overflow: hidden;
+}
+.design .img1{
+    position:absolute;
+    left:16%;
+}
+.design .img2
+{
+    position: absolute;
+    right:16%;
+}
+.post-head{
+    margin: 60px auto ;
+    width:68%;
+}
+.posts .post-content{
+    display: flex;
+    align-items: center;
+    margin: 26px 0px ;
+}
+
+.posts .post-content .post-image{
+width: 28%;
+margin-right: 14px;
+}
+.posts .post-content .post-image img{
+width:100%;
+}
+.posts .post-content .post-info{
+width:50%
+}
+.posts .post-content .post-info a{
+text-decoration: none;
+color: var(--font1);
+}
+.posts .post-content .post-info a:hover
+{
+    color:var(--main-bg-color);
+}

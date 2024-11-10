@@ -1,0 +1,137 @@
+.head {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .content p {
+    text-align: center;
+    margin: 10px 0px 18px 0px;
+}
+
+.head .content span {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: var(--font1);
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .all-posts {
+    width: 60%;
+}
+
+.all-posts .posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts .post-content {
+    display: flex;
+    align-items: center;
+}
+
+.posts .post-content .post-image {
+    min-width: 28%;
+    margin-right: 10px;
+}
+
+.posts .post-content .post-image img {
+    width: 100%;
+    height: 230px;
+}
+
+.posts .post-content .post-info {
+    width: 90%;
+}
+
+.posts .post-content .post-info span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #592EA9;
+}
+
+.posts .post-content .post-info a {
+    text-decoration: none;
+    color: var(--font1);
+}
+
+.posts .post-content .post-info h2 {
+    margin: 10px 0px;
+}
+
+.posts .post-content .post-info a:hover {
+    color: var(--main-bg-color);
+}
+
+.content {
+    margin: 50px auto;
+}
+
+.content .category-and-tags {
+    width: 20%;
+}
+
+.category-and-tags .category h2,
+.category-and-tags .tags h2 {
+    margin-bottom: 20px;
+}
+
+.category .ca {
+    width: 85%;
+    height: 56px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #f4f4f4;
+}
+
+.ca:hover {
+    background-color: var(--bColor);
+}
+
+.category .ca a {
+    text-decoration: none;
+    color: var(--fcolor1);
+    font-weight: bold;
+    font-family: var(--font1);
+}
+
+.category-and-tags .tags {
+    width: 85%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tags .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.tags .row .tag a {
+    margin: 0px 10px;
+    border: 2px solid #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: var(--fcolor1);
+    font-family: var(--font1);
+}

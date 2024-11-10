@@ -1,0 +1,56 @@
+:root{
+    --main-bg-color:#232536;
+    --main-p-color:#f4f4f4;
+    --fcolor:#fff;
+    --fcolor1:#000;
+    --p-color:#6d6e76;
+    --ffcolor:#6D6E76;
+    --bColor: #FFD050;
+    --font1:"Sen";
+    --font2:"Inter";
+    --main-head-color:#f4f4f4;
+}
+.h-font-size h1{
+    font-size:40px;
+    margin: 0px;
+    padding: 0px;
+}
+.head-para p{
+    line-height: 23px;
+    color: var(--p-color);
+}
+.head-color{
+    background-color: var(--main-head-color);
+}
+.font1{
+    font-family:Sen;
+}
+.font2{
+    font-family:Inter;
+}
+.fcolor-white{
+    color:var(--fcolor);
+}
+.button{
+ background-color: var(--bColor);   
+}
+.m-auto{
+    margin:auto ;
+}
+.t-bold{
+    font-weight: bold;
+}
+.s-logo {
+    height: 45px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-logo img{
+    background-color: var(--p-color);
+}
+
+
+

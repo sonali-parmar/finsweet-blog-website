@@ -1,0 +1,204 @@
+.head {
+    width: 85%;
+    height: 560px;
+}
+
+.head .about-us-box {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.head .about-us {
+    width: 35%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: var(--fcolor);
+    position: absolute;
+    top: 55px;
+    left: 5%;
+
+}
+
+.head .box {
+    width: 40%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+}
+
+.head .image {
+    width: 100%;
+    height: 320px;
+    overflow-x: hidden;
+}
+
+.head .image img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    object-position: 20% 58%;
+}
+
+.stripe {
+    width: 100%;
+}
+
+.stripe .image1 {
+    width: 490px;
+    height: 100px;
+    background-color: var(--bColor);
+    position: relative;
+    top: -118px;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.stripe .image1 .content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.stripe .image1 .content span{
+    font-size: 14px;
+}
+.stripe .image2 img {
+    height: 20px;
+    position: relative;
+    top: -127px;
+    left: 5%;
+    z-index: 2;
+}
+
+.stripe .image3 img {
+    position: absolute;
+    left: 20%;
+    top: 588px;
+}
+
+.head .head-content {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 620px;
+    width: 85%;
+    height: 300px;
+}
+
+.content-box {
+    width: 40%;
+}
+
+.content-box h2 {
+    margin: 10px 0px;
+}
+
+.content-box span {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.content {
+    position: relative;
+    top: 350px;
+    width: 85%;
+}
+
+.content .c-image-info {
+    display: flex;
+    justify-content: space-arond;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0px;
+}
+.content .c-image-info .content-box{
+    padding:20px;
+    margin:0px 20px ;
+}
+.content-box h4 {
+    margin: 10px 0px;
+}
+
+.c-image-info .image{
+    width: 35%;
+}
+
+.c-image-info .image img {
+    width: 100%;
+}
+.author-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:350px;
+    width: 85%;
+}
+.author-list .authors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+ }
+ .author-list .authors .author-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 200px;
+    border:1px solid #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+ }
+ .author-list .authors .author-info img{
+    width: 70px;
+    margin: 20px 0px;
+    border-radius: 50%;
+    background-color: aliceblue;
+ }
+ .author-list .authors .author-info span{
+    font-weight: bolder;
+    margin: 14px 0px 10px 0px;
+    font-family: var(--font1);
+ }
+ .author-info a{
+    text-decoration: none; 
+    color: var(--fcolor1); 
+ }
+ .authors .author-info:hover{
+    background-color: #FBF6EA;
+ }
+ .author-info .s-logo{
+    width: 10px; 
+    display: flex;
+    justify-content: center;
+ }
+.author-info .s-logo img{
+    padding:0px 4px ;
+ }
+ .join-team{
+    position: relative;
+    top:300px;
+ }
+ .footer{
+    position: relative;
+top:300px;
+ }
