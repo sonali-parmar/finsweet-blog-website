@@ -229,6 +229,12 @@ width:42%;
     justify-content: space-around;
     margin: 19px 0px;
  }
+ .categories .categories-name a{
+    text-decoration: none;
+ }
+ .categories .categories-name a:active{
+    color: #592EA9;
+ }
  .categories .categories-name .c-item{
     display: flex;
     flex-direction: column;
